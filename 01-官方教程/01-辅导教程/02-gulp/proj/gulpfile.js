@@ -47,7 +47,7 @@ function bundle(){
     .pipe(gulp.dest("dist"));
 }
 
-gulp.task("default",gulp.series('copy-html',bundle))
+gulp.task("default",gulp.parallel('copy-html',bundle))
 
 watchedBrowserify.on("update",bundle);
 watchedBrowserify.on("log", gutil.log)
