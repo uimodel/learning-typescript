@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f26096ef-39d6-45de-a892-3769aa5befbb" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/01-官方教程/01-辅导教程/01-5分钟上手TypeScipt/class.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-官方教程/01-辅导教程/01-5分钟上手TypeScipt/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-官方教程/01-辅导教程/01-5分钟上手TypeScipt/interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-官方教程/01-辅导教程/01-5分钟上手TypeScipt/typeAnnotation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -23,8 +27,14 @@
   </component>
   <component name="ProjectId" id="1QDke4QF1jCwccQXB8Szv3NS1Fb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ts-axios/task/08-attribute" />
@@ -42,23 +52,25 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ts-axios/task/08-attribute" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/官方教程/01-辅导教程/01-5分钟上手TypeScipt" />
+      <recent name="$PROJECT_DIR$/old" />
       <recent name="$PROJECT_DIR$/ts-axios/task/section1" />
       <recent name="$PROJECT_DIR$/ts-axios/task/test" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ts-axios/task/08-attribute" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -81,6 +93,8 @@
       <workItem from="1567312650453" duration="414000" />
       <workItem from="1567313092025" duration="17552000" />
       <workItem from="1567607098281" duration="14000" />
+      <workItem from="1578104938513" duration="4280000" />
+      <workItem from="1578111504849" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1564326807935</created>
@@ -117,52 +131,10 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ts-axios/task/03-let/index.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/06-for-of/demo.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/08-class-constructor/demo.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/01-parameter-type/demo.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/07-class/demo.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/05-destructive-expression/demo2.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/12-module/demo.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/11-interface/demo.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/04-generator/demo.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/12-module/b.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/05-destructive-expression/demo.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/12-module/a.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/09-class-inheritance/demo.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/02-parameter-default-value/demo.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/03-parameter-optional/demo.js" />
-        <option value="$PROJECT_DIR$/typescript-induction/10-generic/demo.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/04-const/index.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/05-deconstruction/index.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/06-extended/index.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/07-interface/index.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/08-optional-attribute/index.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/08-attribute/index2.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/07-interface/index3.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/08-attribute/index3.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/09-additional-attribute-checking/index.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/08-attribute/index4.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/09-function-type/index2.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/09-function-type/index3.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/09-function-type/index4.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/09-function-type/index5.js" />
-        <option value="$PROJECT_DIR$/ts-axios/task/10-class-type/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/01-boolean/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/02-number/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/03-array/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/04-tuple/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/05-enum/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/06-any/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/07-void/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/08-null-undefined/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/09-never/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/10-object/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/11-assert-type/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/11-assert-type/index2.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/01-basic-type/12-interface/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/02-interface/01-optional-attribute/index.js" />
-        <option value="$PROJECT_DIR$/typescript-basic/02-interface/02-read-only-attribute/index.js" />
+        <option value="$PROJECT_DIR$/01-官方教程/01-辅导教程/01-5分钟上手TypeScipt/greeter.js" />
+        <option value="$PROJECT_DIR$/01-官方教程/01-辅导教程/01-5分钟上手TypeScipt/interface.js" />
+        <option value="$PROJECT_DIR$/01-官方教程/01-辅导教程/01-5分钟上手TypeScipt/typeAnnotation.js" />
+        <option value="$PROJECT_DIR$/01-官方教程/01-辅导教程/01-5分钟上手TypeScipt/class.js" />
       </list>
     </option>
   </component>
@@ -185,5 +157,11 @@
     </ignored-roots>
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1742" y="-489" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578106746565">
+      <screen x="1440" y="-1057" width="1080" height="1897" />
+    </state>
+    <state x="1742" y="-489" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.823/-480.-1057.1920.1057/1440.-1057.1080.1897@1440.-1057.1080.1897" timestamp="1578106746565" />
   </component>
 </project>
