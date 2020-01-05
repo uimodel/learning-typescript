@@ -2,19 +2,19 @@
 /* 块级作用域 */
 // 与声明var的作用域泄漏到其包含函数到变量不同，
 // 块级作用域变量在其最近到包含块或for循环之外不可见。
-function f(input:boolean){
+function f(input: boolean) {
     let a = 100;
-    if(input){
+    if (input) {
         // Still okay to reference 'a'
         let b = a + 1;
         return b;
     }
     // Error: 'b' doesn't exist here
-    return b; 
+    return b;
 }
 
 /* 在catch子句中声明到变量也具有类似的作用域规则 */
-try{
+try {
     throw "oh on!";
 }
 catch (e) {
@@ -32,34 +32,34 @@ let x = 10;
 let x = 20; // error: can't re-declare 'x' in the same scope
 
 /* 干扰参数 */
-function f(x){
+function f(x) {
     let x = 100; // error: interferes with parameter declaration
 }
 
-function g(){
+function g() {
     let x = 100;
     var x = 100;
 }
 
 // 并不是说永远不能使用函数范围的变量声明块范围的变量。
 // 只需在明显不同的块中声明块范围的变量。
-function f(condition, x){
-    if(condition){
-        let x =100;
+function f(condition, x) {
+    if (condition) {
+        let x = 100;
         return x;
     }
     return x;
 }
-f(false,0); // returns '0'
-f(true,0); // returns '100'
+f(false, 0); // returns '0'
+f(true, 0); // returns '100'
 
 /* 块范围变量捕获 */
 // 每次一个作用域运行时，它都会创建一个变量的环境。该环境及其捕获的变量即使在其范围内的所有内容执行完毕后也可以存在。
-function theCityThatAlwaysSleeps(){
+function theCityThatAlwaysSleeps() {
     let getCity;
-    if(true){
+    if (true) {
         let city = "Seattle";
-        getCity = function(){
+        getCity = function () {
             return city;
         }
     }
@@ -71,8 +71,8 @@ function theCityThatAlwaysSleeps(){
 
 // let声明为循环的一部分时，声明具有截然不同的行为。这些声明不仅为循环本身引入了新的环境，还为每次迭代创建了一个新的作用域。
 // 由于无论如何我们都是通过IIFE进行此操作，因此我们可以将旧的setTimeout示例更改为仅使用let声明
-for(let i=0;i<10;i++){
-    setTimeout(function(){console.log(i);},100*i);
+for (let i = 0; i < 10; i++) {
+    setTimeout(function () { console.log(i); }, 100 * i);
 }
 
 
@@ -89,7 +89,34 @@ kitty = {
     numLives: numLivesForCat
 }
 // all "okay"
-kitty.name  = "Rory";
-kitty.name =  "Kitty";
+kitty.name = "Rory";
+kitty.name = "Kitty";
 kitty.name = "Cat";
-kitty.numLives --;
+kitty.numLives--;
+
+/* 元组销毁 */
+// 元组可能像数组一样被解构，解构变量获取相应到元组元素到类型：
+let tuple: [number, string, boolean] = [7, 'hello', true];
+let [a, b, c] = tuple;
+// a: number, b: string, c: boolean
+
+// 与数组一样，可以使用分解其余到元组。。。，已获得较短到元组。
+let [a,...bc] = tuple; // bc: [string, boolean]
+let [a,b,c,...d] = tuple; // d: [], the empty tuple
+
+// 或忽略尾随元素或其它元素：
+let [a] = tuple; // a: number
+let [, b] = tuple; // b: string
+
+/* 默认值 */
+// 在此示例中，b?指示b是可选的，因此可能是undefined。 keepWholeObject现在具有变量wholeObject以及属性a和b，即使b未定义。
+function keepWholeObject(wholeObject:{a: string, b?:number}){
+    let { a, b = 1001} = wholeObject;
+}
+
+/* 函数声明 */
+// 解构也可以在函数声明中使用。
+type C = { a: string, b? number}
+function f({a,b}:C): voild{
+
+}
