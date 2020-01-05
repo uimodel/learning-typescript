@@ -163,5 +163,16 @@
       <screen x="1440" y="-1057" width="1080" height="1897" />
     </state>
     <state x="1742" y="-489" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.823/-480.-1057.1920.1057/1440.-1057.1080.1897@1440.-1057.1080.1897" timestamp="1578106746565" />
+<<<<<<< Updated upstream
+=======
+    <state x="1508" y="-508" key="CommitChangelistDialog2" timestamp="1578242276382">
+      <screen x="1440" y="-1057" width="1080" height="1897" />
+    </state>
+    <state x="1508" y="-508" key="CommitChangelistDialog2/0.23.1440.823/-480.-1057.1920.1057/1440.-1057.1080.1897@1440.-1057.1080.1897" timestamp="1578242276382" />
+    <state x="1580" y="-369" key="Vcs.Push.Dialog.v2" timestamp="1578242284200">
+      <screen x="1440" y="-1057" width="1080" height="1897" />
+    </state>
+    <state x="1580" y="-369" key="Vcs.Push.Dialog.v2/0.23.1440.823/-480.-1057.1920.1057/1440.-1057.1080.1897@1440.-1057.1080.1897" timestamp="1578242284200" />
+>>>>>>> Stashed changes
   </component>
 </project>
