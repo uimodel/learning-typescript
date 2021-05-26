@@ -1,0 +1,7 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions":{
+    "outDir": "dist",
+    "outFile": "dist/app.js"
+  }
+}
